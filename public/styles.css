@@ -15,9 +15,9 @@ body {
   margin: 0;
   place-items: center;
   background:
-    radial-gradient(ellipse at 18% 20%, #fff8cc 0, transparent 26%),
-    radial-gradient(ellipse at 84% 78%, #c9f5ff 0, transparent 30%),
-    linear-gradient(135deg, #f8e9ff, #e8e4ff 48%, #ffe6f1);
+    radial-gradient(ellipse at 18% 20%, #6ec0fa 0, transparent 26%),
+    radial-gradient(ellipse at 84% 78%, #5dcae2 0, transparent 30%),
+    linear-gradient(135deg, #c063eb, #816eeb 48%, #f277ac);
 }
 
 h1 {
@@ -26,9 +26,9 @@ h1 {
   border: 1px solid rgb(255 255 255 / 80%);
   border-radius: 2rem;
   background: rgb(255 255 255 / 72%);
-  box-shadow: 0 1.5rem 5rem rgb(112 75 153 / 16%);
+  box-shadow: 0 1.5rem 5rem rgba(115, 71, 165, 0.16);
   background-clip: padding-box;
-  color: #9a65bd;
+  color: #8e18dc;
   font-size: clamp(2.4rem, 8vw, 4rem);
   text-align: center;
 }
