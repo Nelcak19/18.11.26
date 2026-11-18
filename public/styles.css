@@ -1,0 +1,34 @@
+:root {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #49365f;
+  background: #f8e9ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  place-items: center;
+  background:
+    radial-gradient(ellipse at 18% 20%, #fff8cc 0, transparent 26%),
+    radial-gradient(ellipse at 84% 78%, #c9f5ff 0, transparent 30%),
+    linear-gradient(135deg, #f8e9ff, #e8e4ff 48%, #ffe6f1);
+}
+
+h1 {
+  margin: 1rem;
+  padding: clamp(2.5rem, 8vw, 5rem);
+  border: 1px solid rgb(255 255 255 / 80%);
+  border-radius: 2rem;
+  background: rgb(255 255 255 / 72%);
+  box-shadow: 0 1.5rem 5rem rgb(112 75 153 / 16%);
+  background-clip: padding-box;
+  color: #9a65bd;
+  font-size: clamp(2.4rem, 8vw, 4rem);
+  text-align: center;
+}
